@@ -3,8 +3,8 @@ package org.programs;
 public class ReverseString {
 	public static void main(String[] args) {
 //		reverseString();
-		reverseOfEachWordInStrin();
-		
+//		reverseOfEachWordInStrin();
+		reverse();
 	}
 	private static void reverseString() {
 		String s = "Welcome";
@@ -28,6 +28,15 @@ public class ReverseString {
 		System.out.println("Original String = "+ s);
 		System.out.println("Reverse String = "+reverseString);
 
+	}
+
+	private static void reverse(){
+		String str = "Welcome";
+		String rev = "";
+		for(int i=str.length()-1;i>=0;i--){
+			rev+=str.charAt(i);
+		}
+		System.out.println(rev);
 	}
 	
 

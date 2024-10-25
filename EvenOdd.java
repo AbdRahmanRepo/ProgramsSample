@@ -1,5 +1,7 @@
 package org.programs;
 
+import java.util.Scanner;
+
 public class EvenOdd {
 	public static void main(String[] args) {
 		evenNum();
@@ -30,4 +32,5 @@ public class EvenOdd {
 		System.out.println("\nsum of the odd number from 0 to 30 = "+ sum);
 		System.out.println("count of odd number from 0 to 30 ="+ count);
 	}
+
 }

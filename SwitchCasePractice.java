@@ -2,7 +2,7 @@ package org.programs;
 
 import java.util.*;
 
-public class ContactsName {
+public class SwitchCasePractice {
 
 	public static void main(String[] args) {
 		names();
